@@ -1,0 +1,48 @@
+import board
+import neopixel
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+print("Make it red!")
+while True:
+     dot.fill((255,0,0))
+     
+-----------------------
+
+blinking led code fro python
+-------------
+import digitalio                     // imports the board
+from board import *
+import time
+
+led = digitalio.DigitalInOut(D13)           // selects pin
+led.direction = digitalio.Direction.OUTPUT  //outputs power to the pin?
+while True:                                  // on/off intervals.
+    led.value = True
+    time.sleep(0.1)
+    led.value = False
+    time.sleep(0.1)
+------------------------------------
+Fading LED code
+
+import analogio
+import board
+import time
+
+
+led = analogio.AnalogOut(board.A0)
+B = 65000
+amount = 100
+ceiling = 50000
+floor = 20000
+#pin.deinit()
+#led.direction = analogio.Direction.OUTPUT
+while True:
+    led.value = B
+    B -= amount
+    time.sleep(.01)
+    if B < floor:
+        amount = -100
+    elif B > ceiling:
+        amount = 100
+    time.sleep(.01)
+        
+    

@@ -1,0 +1,25 @@
+import time
+import pulseio
+import board
+import touchio
+from adafruit_motor import servo
+
+
+touch_A1 = touchio.TouchIn(board.A1)  # A0-A5 touch on Metro M0 Express
+touch_A2 = touchio.TouchIn(board.A2)  # A0-A5 touch on Metro M0 Express
+
+# create a PWMOut object on Pin A2
+pwm = pulseio.PWMOut(board.D3, frequency=30)
+# Create a servo object, moth_slippers
+moth_slippers = servo.ContinuousServo(pwm)
+
+while True:
+    if touch_A1.value:
+        moth_slippers.throttle = 1.0
+        print("A1")
+    if touch_A2.value:
+        moth_slippers.throttle = -1.0
+        print("A2")
+    if not touch_A1.value and not touch_A2.value:
+        moth_slippers.throttle = 0.0
+    time.sleep(0.1)
