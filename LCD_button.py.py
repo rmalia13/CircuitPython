@@ -7,10 +7,12 @@ import digitalio
 from digitalio import DigitalInOut, Direction, Pull
 import board
 
+# made a button
 button = DigitalInOut(board.D7)
 button.direction = digitalio.Direction.INPUT
 button.pull = digitalio.Pull.UP
 
+# made a switch
 switch = DigitalInOut(board.D6)
 switch.direction = digitalio.Direction.INPUT
 switch.pull = digitalio.Pull.UP
