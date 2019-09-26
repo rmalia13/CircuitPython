@@ -30,13 +30,13 @@ lcd.set_cursor_pos(0, 0)
 lcd.print("buttonValue:")
 
 while True:
-
+    # count up
     if not button.value and switch.value and buttonValue:
         lcd.set_cursor_pos(1,0)
         count = count + 1
         lcd.print(str(count))
         lcd.print("     ")
-
+    # count down 
     if not button.value and not switch.value and buttonValue:
         lcd.set_cursor_pos(1,0)
         count = count - 1
