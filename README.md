@@ -38,3 +38,4 @@ calls main page and uses True False statments to make LEDs light up in different
 ###
 if you double each call for the first and last 3 LEDs the pettern works in a line.
 !!Make sure that all LEDs are wired correctly, long leg takes power/short to ground.!!
+<img src="i_want_to_die.jpg" width="75">
