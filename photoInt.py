@@ -1,5 +1,5 @@
 import time
-# Meg Gist
+# River Malia
 # CircuitPython Photointerrupters
 
 import time
