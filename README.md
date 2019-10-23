@@ -22,7 +22,7 @@ this is the fading led with the value ceilings.
 ### notes
 Value for LEDs does not show untill above 20k - 50k.
 Simple LED.
-<img src="Media/LED_fade_fritzing.PNG" width="300"
+<img src="Media/LED_fade_fritzing.PNG" width="300">
 
 ## distance sensor
 Used the if not find x equations.
