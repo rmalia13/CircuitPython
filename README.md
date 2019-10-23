@@ -22,22 +22,22 @@ this is the fading led with the value ceilings.
 ### notes
 Value for LEDs does not show untill above 20k - 50k.
 Simple LED.
-
+<img src="Media/LED_fade_fritzing.PNG" width="300"
 
 ## distance sensor
 Used the if not find x equations.
 ### notes
 A distance from 5-20CM shows up as a green light on the metro board, past 20cm it is blue and past 35cm it turns red.
 the distance sensor is accurate when moved at a relatively slow pace. 
-<img src="distance_sensor_fritz.PNG" width="300"
+ <img src="Media/distance_sensor_fritz.PNG" width="300"
 
 
-## photo int
+## photo interrupter
 loop that stops counting if interrupted
 ### notes
 The count variabe needed to be stopped every intteruption and added to once to prevent exponential additon.
 
-<img src="Media/" width="300"
+<img src="Media/CircuitPythonPhotointerrupters.jpg" width="300"
 
 ## Fancy LED
 calls main page and uses True False statments to make LEDs light up in different patterns
@@ -56,4 +56,7 @@ True false variable used for turning the LEDs on and off.
 ## Hello VS code
 prints a message every second in the console.
 ### notes
+
+## Circuit Python RGB
+
 
