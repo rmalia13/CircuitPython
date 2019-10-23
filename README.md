@@ -29,7 +29,7 @@ Used the if not find x equations.
 ### notes
 A distance from 5-20CM shows up as a green light on the metro board, past 20cm it is blue and past 35cm it turns red.
 the distance sensor is accurate when moved at a relatively slow pace. 
-<img src="Media/" width="300"
+<img src="Media/distance_sensor_fritz" width="300"
 
 
 ## photo int
