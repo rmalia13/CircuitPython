@@ -36,8 +36,12 @@ The count variabe needed to be stopped every intteruption and added to once to p
 
 ## Fancy LED
 calls main page and uses True False statments to make LEDs light up in different patterns
-###
+### notes
 if you double each call for the first and last 3 LEDs the pettern works in a line.
 Make sure that all LEDs are wired correctly, long leg takes power/short to ground!
 True false variable used for turning the LEDs on and off.
 <img src="i_want_to_die.jpg" width="75">
+
+## Hello VS code
+prints a message every second in the console.
+### notes
