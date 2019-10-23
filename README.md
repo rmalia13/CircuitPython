@@ -45,6 +45,7 @@ calls main page and uses True False statments to make LEDs light up in different
 if you double each call for the first and last 3 LEDs the pettern works in a line.
 
 !!Make sure that all LEDs are wired correctly, long leg takes power/short to ground.!!
+<img src="Media/FancyLED_fritzing.png" width="500">
 
 <img src="Media/rgb-led_8qitceRYYl.png" width="300">
 
