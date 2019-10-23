@@ -8,12 +8,15 @@ this is the button code for the LCD button. If not var count variable. button st
 ### notes
 the button needs to be delicatly wired. in count does not increase, press button again or check wires. The LCD backpack needs a refresh statement after every press, but the stament should hold until pressed again.
 
+<img src="Media/CircuitPythonLCD.jpg" width="300">
+
 
 
 ## ServoTouch
 this is the constant servo assignment with the if then hold statement. 
 ### notes
 Touching one wire creates a deficit in the power value of one PWM obj. and a less than value moves the servo left or right. both wires must not touch eachother for the code to work.
+<img src="Media/CircuitPythonServo.jpg" width="300">
 
 
 
@@ -29,7 +32,7 @@ Used the if not find x equations.
 ### notes
 A distance from 5-20CM shows up as a green light on the metro board, past 20cm it is blue and past 35cm it turns red.
 the distance sensor is accurate when moved at a relatively slow pace. 
- <img src="Media/distance_sensor_fritz.PNG" width="300"
+ <img src="Media/distance_sensor_fritz.PNG" width="300">
 
 
 ## photo interrupter
@@ -37,7 +40,7 @@ loop that stops counting if interrupted
 ### notes
 The count variabe needed to be stopped every intteruption and added to once to prevent exponential additon.
 
-<img src="Media/CircuitPythonPhotointerrupters.jpg" width="300"
+<img src="Media/CircuitPythonPhotointerrupters.jpg" width="300">
 
 ## Fancy LED
 calls main page and uses True False statments to make LEDs light up in different patterns
@@ -58,5 +61,10 @@ prints a message every second in the console.
 ### notes
 
 ## Circuit Python RGB
+Values fade between different colors.
+### Notes
+values can become scrabmled, make sure that the call is in order and the values for R G and B are each = to either 2^16th or 0
+
+<img src="Media/CircuitPythonRGB.jpg" width="300">
 
 
