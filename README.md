@@ -58,7 +58,6 @@ True false variable used for turning the LEDs on and off.
 
 ## Hello VS code
 prints a message every second in the console.
-### notes
 
 ## Circuit Python RGB
 Values fade between different colors.
